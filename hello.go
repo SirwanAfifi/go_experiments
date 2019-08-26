@@ -4,13 +4,14 @@ import "fmt"
 
 func main() {
 
-	for i := 0; i < 10; i++ {
-		fmt.Println(i)
-	}
-
-	index := 1
-
-	for index < 10 {
-		fmt.Println(index)
-	}
+	i := 2
+    fmt.Print("Write ", i, " as ")
+    switch i {
+    case 1:
+        fmt.Println("one")
+    case 2:
+        fmt.Println("two")
+    case 3:
+        fmt.Println("three")
+    }
 }
